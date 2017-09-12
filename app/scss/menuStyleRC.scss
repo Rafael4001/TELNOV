@@ -1,6 +1,10 @@
 .navbarRC {
   margin-bottom: 0;
   background-color: white;
+  position: fixed;
+  z-index: 100000;
+  width: 100%;
+  font-family: "Arial Black";
 }
 
 .margin-Left {
@@ -13,4 +17,12 @@
 
 .padding-right {
   padding-right: 15vw;
+}
+
+.brand {
+  font-size: 25px;
+  @media (max-width: 768px) {
+    font-size: 4vh;
+
+  }
 }

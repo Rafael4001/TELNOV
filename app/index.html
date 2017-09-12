@@ -23,6 +23,7 @@
 
 <!---------------------------------------------------------------------------------------------------->
 <body>
+<a id="Start"></a>
 <!--NAVBAR - START-->
 <nav class="navbar navbar-default navbarRC">
     <div class="container-fluid">
@@ -35,27 +36,28 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand padding-left" href="#">TELNOV</a>
+            <a class="navbar-brand padding-left brand" href="#Start">TELNOV</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <!--right side-->
             <ul class="nav navbar-nav navbar-right padding-right">
-                <li><a href="#">KONTAKT</a></li>
+                <li><a href="#KONTAKT_place">KONTAKT</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">MENU <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">O Nas</a></li>
+
+                        <li><a href="#o_Nas">O Nas</a></li>
                         <li role="separator" class="divider"></li>
 
-                        <li><a href="#">Usługi Budowlane</a></li>
-                        <li><a href="#">Oferujemy</a></li>
-                        <li><a href="#">Usługi dla rolnictwa</a></li>
+                        <li><a href="#Usługi_Budowlane">Usługi Budowlane</a></li>
+                        <li><a href="#Oferujemy">Oferujemy</a></li>
+                        <li><a href="#Usługi_dla_rolnictwa">Usługi dla rolnictwa</a></li>
 
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Zobacz Nas w pracy</a></li>
+                        <li><a href="#Zobacz_Nas_w_pracy">Zobacz Nas w pracy</a></li>
                     </ul>
                 </li>
             </ul>
@@ -65,18 +67,19 @@
 </nav>
 <!--NAVBAR - END-->
 
-<div id="main-window" class=" main-window container-fluid paddingZeroRC">
+<div class=" main-window container-fluid paddingZeroRC">
     <div class="pierwszyEkran text-center">
         TEL NOV
     </div>
 
     <!--part 1-->
-    <div class=" firstContainer titleRC col-sm-12 text-center marginZero ">
+    <a id="o_Nas"></a>
+    <div class=" firstContainer  titleRC col-sm-12 text-center marginZero ">
         O Nas
     </div>
-    <div id="ONAStextOnWhiteContainer" class="col-sm-12  text-center textOnWhiteContainer paddingZeroRC">
-        <div class=" col-md-12 col-lg-6 marginAutoRC ">
-            <h3>O Nas</h3>
+    <div id="ONAStextOnWhiteContainer" class="col-sm-12  textOnWhiteContainer   ">
+        <div class=" col-sm-12 text-center">
+            <!--<h3>O Nas</h3>-->
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus sapien vel tortor accumsan euismod.
             Donec et enim at leo gravida accumsan. amet, consectetur adipiscing elit. Integer finibus sapien vel tortor
             accumsan euismod.
@@ -85,213 +88,217 @@
             Donec et enim at leo gravida accumsan.
         </div>
     </div>
+
     <!--part 1-END-->
 </div>
 
-<div>
+<div class="main-window container-fluid paddingZeroRC">
     <!--part 2-->
-    <div class="titleTextSettings titleRC col-sm-12 text-center marginZero">
-        USŁUGI BUDOWLANE
-    </div>
+    <a id="Usługi_Budowlane">
+        <div class=" titleRC col-sm-12 text-center marginZero">
+            USŁUGI BUDOWLANE
+        </div>
 
-    <div class=" col-sm-12 yellowStripe"></div>
+        <div class=" col-sm-12 yellowStripe"></div>
 
-    <div class="">
-        <div class="row textOnWhiteContainer paddingZeroRC">
-            <div id="" class="col-sm-12"
-                 style="margin-left: auto; margin-right: auto; padding: 0 ">
-                <div class=" col-sm-12 center-block ">
-                    <div class="text-center">
-                        <img src="images/wwiert.jpg">
+        <div class="">
+            <div class="row textOnWhiteContainer paddingZeroRC">
+                <div id="" class="col-sm-12 marginZeroRC paddingRC">
+                    <div class=" col-sm-12 center-block ">
+                        <div class="text-center">
+                            <img src="images/wwiert.jpg">
+                        </div>
+                        <br>
+
+                        <div class="col-sm-10 col-md-8 col-lg-5 marginAutoRC " style="float: none;">
+                            <ul>
+                                <li>WYKOPY LINIOWE</li>
+                                <li>WYKOPY FUNDAMENTOWE</li>
+                                <li>PRZEWIERTY DO 150 m</li>
+                                <li>ODWODNIENIE MIESZKAŃ</li>
+                                <li>MONTAŻ OCZYSZCZALNI ŚCIEKÓW PRZYDOMNYCH</li>
+                                <li>SUSZENIE ROWÓW</li>
+                                <li>NIWELACJA TERENU</li>
+                            </ul>
+                        </div>
                     </div>
-                    <br>
-
-                    <div class="col-sm-10 col-md-8 col-lg-5 marginAutoRC " style="float: none;">
-                        <ul>
-                            <li>WYKOPY LINIOWE</li>
-                            <li>WYKOPY FUNDAMENTOWE</li>
-                            <li>PRZEWIERTY DO 150 m</li>
-                            <li>ODWODNIENIE MIESZKAŃ</li>
-                            <li>MONTAŻ OCZYSZCZALNI ŚCIEKÓW PRZYDOMNYCH</li>
-                            <li>SUSZENIE ROWÓW</li>
-                            <li>NIWELACJA TERENU</li>
-                        </ul>
-                    </div>
-
-
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <!--part 2-END-->
+        <!--part 2-END-->
 </div>
 
 
-<div>
+<div class="main-window container-fluid paddingZeroRC">
     <!--part 3-->
-    <div class="titleTextSettings titleRC col-sm-12 text-center marginZero">
-        OFERUJEMY
-    </div>
-    <div class=" col-sm-12 yellowStripe"></div>
+    <a id="Oferujemy">
+        <div class=" titleRC col-sm-12 text-center marginZero">
+            OFERUJEMY
+        </div>
+        <div class=" col-sm-12 yellowStripe"></div>
 
-    <div class="">
-        <div class="row textOnWhiteContainer paddingZeroRC">
-            <div class="col-sm-12"
-                 style="margin-left: auto; margin-right: auto; padding: 0 ">
-                <div class=" col-sm-12 center-block ">
-                    <div class="text-center">
-                        <img src="images/koparka.jpg">
-                    </div>
-                    <br>
+        <div class="">
+            <div class="row textOnWhiteContainer paddingZeroRC">
+                <div class="col-sm-12 marginZeroRC paddingRC">
+                    <div class=" col-sm-12 center-block ">
+                        <div class="text-center">
+                            <img src="images/koparka.jpg">
+                        </div>
+                        <br>
 
-                    <div class="col-sm-10 col-md-8 col-lg-5 marginAutoRC " style="float: none;">
-                        <ul>
-                            <li>USŁUGI MINIKOAPRKA</li>
-                            <li>USŁUGI PŁUGOUKŁADACZEM</li>
-                            <li>USŁUGI KOPARKĄ ŁAŃCUCHOWĄ</li>
-                        </ul>
+                        <div class="col-sm-10 col-md-8 col-lg-5 marginAutoRC " style="float: none;">
+                            <ul>
+                                <li>USŁUGI MINIKOAPRKA</li>
+                                <li>USŁUGI PŁUGOUKŁADACZEM</li>
+                                <li>USŁUGI KOPARKĄ ŁAŃCUCHOWĄ</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!--part 3-END-->
+        <!--part 3-END-->
 </div>
 
-<div>
+<div class="window_field container-fluid paddingZeroRC">
 
     <!--part 4-->
-    <div class="titleTextSettings titleRC col-sm-12 text-center marginZero">
-        USŁUGI DLA ROLNICTWA
-    </div>
+    <a id="Usługi_dla_rolnictwa">
+        <div class=" titleRC col-sm-12 text-center marginZero">
+            USŁUGI DLA ROLNICTWA
+        </div>
 
-    <div class=" col-sm-12 yellowStripe"></div>
+        <div class=" col-sm-12 yellowStripe"></div>
 
-    <div class="">
-        <div class="row textOnWhiteContainer paddingZeroRC">
-            <div class="col-sm-12"
-                 style="margin-left: auto; margin-right: auto; padding: 0 ">
-                <div class=" col-sm-12 center-block ">
-                    <div class="text-center">
-                        <img src="images/tractor.png" alt="tractor www.flaticon.com">
-                    </div>
-                    <br>
+        <div class="">
+            <div class="row textOnWhiteContainer paddingZeroRC">
+                <div class="col-sm-12 marginZeroRC paddingRC">
+                    <div class=" col-sm-12 center-block ">
+                        <div class="text-center">
+                            <img src="images/tractor.png" alt="tractor www.flaticon.com">
+                        </div>
+                        <br>
 
-                    <div class="col-sm-10 col-md-8 col-lg-5 marginAutoRC " style="float: none;">
-                        <ul>
-                            <li>USŁUGI DLA ROLNICTWA</li>
-                            <li>USŁUGI SUSZARNICĄ</li>
-                            <li>DRENAŻ PÓL</li>
-                        </ul>
+                        <div class="col-sm-10 col-md-8 col-lg-5 marginAutoRC " style="float: none;">
+                            <ul>
+                                <li>USŁUGI DLA ROLNICTWA</li>
+                                <li>USŁUGI SUSZARNICĄ</li>
+                                <li>DRENAŻ PÓL</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!--part 4-END-->
+        <!--part 4-END-->
 </div>
 
-<div>
+<div class="window_field container-fluid paddingZeroRC">
     <!--part 5-->
-    <div class="titleTextSettings titleRC col-sm-12 text-center marginZero">
-        ZOBACZ NAS W PRACY
-    </div>
+    <a id="Zobacz_Nas_w_pracy">
+        <div class=" titleRC col-sm-12 text-center marginZero">
+            ZOBACZ NAS W PRACY
+        </div>
 
-    <div class=" col-sm-12 yellowStripe"></div>
+        <div class=" col-sm-12 yellowStripe"></div>
 
-    <div class="col-sm-12  text-center textOnWhiteContainer">
-        <div class="row">
-            <div id="prezentacjeVideo" class="col-sm-12 text-center">
-                <h2 style="margin-bottom: 5vh">Prezentacja VIDEO</h2>
-                <!--FILM 1----------------------------------------------------------------->
-                <div class="row oneVideo">
+        <div class="col-sm-12  text-center textOnWhiteContainer">
+            <div class="row">
+                <div id="prezentacjeVideo" class="col-sm-12 text-center">
+                    <h2 style="margin-bottom: 5vh">Prezentacja VIDEO</h2>
+                    <!--FILM 1----------------------------------------------------------------->
+                    <div class="row oneVideo">
 
-                    <div class="col-sm-12 col-md-6 ">
-                        <iframe class=" shadow  videoRC" src="https://www.youtube.com/embed/8sGWFt9ydlY"
-                                frameborder="0"
-                                allowfullscreen alt="pługoukladacz"></iframe>
+                        <div class="col-sm-12 col-md-6 ">
+                            <iframe class=" shadow  videoRC" src="https://www.youtube.com/embed/8sGWFt9ydlY"
+                                    frameborder="0"
+                                    allowfullscreen alt="pługoukladacz"></iframe>
+                        </div>
 
+                        <div class="col-sm-12 col-md-6 text-left">
+                            <h5>Pługoukładacz</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin nisl et massa
+                                laoreet
+                                luctus. Etiam dapibus enim mauris, sodales cursus enim sodales non. Aenean nunc tortor,
+                                malesuada
+                                vel ornare eget,</p>
+                            <ul>
+                                <li>informacja pierwsza</li>
+                                <li>informacja druga</li>
+                                <li>informacja trzecia</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--FILM 2----------------------------------------------------------------->
+                    <div class="row oneVideo">
+                        <div class="col-sm-12 col-md-6   ">
+                            <iframe class=" shadow videoRC" src="https://www.youtube.com/embed/wOBGxxQ7o3U"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 text-left">
+                            <h5>Drenacja</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin nisl et massa
+                                laoreet
+                                luctus. Etiam dapibus enim mauris, sodales cursus enim sodales non. Aenean nunc tortor,
+                                malesuada
+                                vel ornare eget,</p>
+                            <ul>
+                                <li>informacja pierwsza</li>
+                                <li>informacja druga</li>
+                                <li>informacja trzecia</li>
+                            </ul>
+                        </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6 text-left">
-                        <h5>Pługoukładacz</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin nisl et massa
-                            laoreet
-                            luctus. Etiam dapibus enim mauris, sodales cursus enim sodales non. Aenean nunc tortor,
-                            malesuada
-                            vel ornare eget,</p>
-                        <ul>
-                            <li>informacja pierwsza</li>
-                            <li>informacja druga</li>
-                            <li>informacja trzecia</li>
-                        </ul>
+                    <!--FILM 1----------------------------------------------------------------->
+                    <div class="row oneVideo">
+
+                        <div class="col-sm-12 col-md-6   ">
+                            <iframe class=" shadow videoRC " src="https://www.youtube.com/embed/VjJaX4A5zcE"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 text-left">
+                            <h5>Zbiór dyni</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin nisl et massa
+                                laoreet
+                                luctus. Etiam dapibus enim mauris, sodales cursus enim sodales non. Aenean nunc tortor,
+                                malesuada
+                                vel ornare eget,</p>
+                            <ul>
+                                <li>informacja pierwsza</li>
+                                <li>informacja druga</li>
+                                <li>informacja trzecia</li>
+                            </ul>
+                        </div>
                     </div>
+
                 </div>
-                <!--FILM 2----------------------------------------------------------------->
-                <div class="row oneVideo">
-                    <div class="col-sm-12 col-md-6   ">
-                        <iframe class=" shadow videoRC" src="https://www.youtube.com/embed/wOBGxxQ7o3U"
-                                frameborder="0"
-                                allowfullscreen></iframe>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 text-left">
-                        <h5>Drenacja</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin nisl et massa
-                            laoreet
-                            luctus. Etiam dapibus enim mauris, sodales cursus enim sodales non. Aenean nunc tortor,
-                            malesuada
-                            vel ornare eget,</p>
-                        <ul>
-                            <li>informacja pierwsza</li>
-                            <li>informacja druga</li>
-                            <li>informacja trzecia</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!--FILM 1----------------------------------------------------------------->
-                <div class="row oneVideo">
-
-                    <div class="col-sm-12 col-md-6   ">
-                        <iframe class=" shadow videoRC " src="https://www.youtube.com/embed/VjJaX4A5zcE"
-                                frameborder="0"
-                                allowfullscreen></iframe>
-
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 text-left">
-                        <h5>Zbiór dyni</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin nisl et massa
-                            laoreet
-                            luctus. Etiam dapibus enim mauris, sodales cursus enim sodales non. Aenean nunc tortor,
-                            malesuada
-                            vel ornare eget,</p>
-                        <ul>
-                            <li>informacja pierwsza</li>
-                            <li>informacja druga</li>
-                            <li>informacja trzecia</li>
-                        </ul>
-                    </div>
-                </div>
-
             </div>
         </div>
-    </div>
-    <!--part 5-END-->
+        <!--part 5-END-->
 </div>
 
-<div>
+
+<!--part 6-->
+<div class="window_field container-fluid paddingZeroRC">
     <!--part 6-->
     <a id="KONTAKT_place"></a>
-    <div id="kontakt" class="titleTextSettings titleRC col-sm-12 text-center marginZero ">
+    <div id="kontakt" class=" titleRC col-sm-12 text-center marginZero ">
         KONTAKT
     </div>
+</div>
 
+
+<div class="row justify-content-sm-center blackBackground marginZeroRC justify-content-centerer">
     <div class="yellowStripe col-sm-12 "></div>
 
     <!---------------------------------->

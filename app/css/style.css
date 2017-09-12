@@ -99,8 +99,7 @@ header {
 .textOnWhiteContainer {
   background-color: white;
   margin: 0;
-  z-index: 11;
-  padding: 3vh 10vw 3vh 12vw; }
+  padding: 6vh 15vw 6vh 15vw; }
   .textOnWhiteContainer h3, .textOnWhiteContainer h4 {
     margin-bottom: 0;
     visibility: hidden;
@@ -112,10 +111,12 @@ header {
   margin: 0 0 0 0;
   position: relative;
   font-family: "Corbel";
-  font-size: 6vw;
-  padding: 0 0;
   color: white;
-  text-shadow: .0625rem .0625rem 0 #6f6f6f; }
+  text-shadow: .0625rem .0625rem 0 #6f6f6f;
+  font-size: 4vw;
+  padding: 2vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  float: none; }
 
 .marginZeroRC {
   margin: 0; }
@@ -180,12 +181,7 @@ header {
 .yellowStripe {
   background-color: #f1f100;
   margin-bottom: 0;
-  min-height: 8px; }
-
-.titleTextSettings {
-  font-size: 4vw;
-  padding: 2vh;
-  background-color: rgba(0, 0, 0, 0.7); }
+  min-height: 5px; }
 
 #kontakt {
   margin-top: 0; }
@@ -219,3 +215,6 @@ header {
   box-shadow: 0 0 15px 1px #d0d0d0;
   margin-top: auto;
   margin-bottom: auto; }
+
+.paddingRC {
+  padding-top: 3vh; }
