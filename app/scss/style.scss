@@ -1,6 +1,7 @@
 body {
   position: relative;
 }
+
 $fontMain: "Corbel";
 
 .row {
@@ -18,7 +19,6 @@ a:hover {
   z-index: 150;
 
 }
-
 
 header {
   margin-bottom: 0;
@@ -179,6 +179,11 @@ $wysokosc_textOnWhiteContainer_RC: 60vh;
 
 .paddingZeroRC {
   padding: 0 0 0 0;
+}
+
+.paddingAutoRC {
+  padding-right: auto;
+  padding-left: auto;
 }
 
 .marginAutoRC {
