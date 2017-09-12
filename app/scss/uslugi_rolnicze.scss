@@ -1,0 +1,55 @@
+body {
+  font-family: "Lucida Bright";
+}
+
+#head_UslugiRolnicze {
+  margin-top: 20vh;
+  margin-bottom: 3vh;
+  color: white;
+  letter-spacing: 20px;
+
+}
+
+#uslugiRoliczeSroded {
+  background-color: white;
+  padding: 2vh 0;
+  ul > li {
+    font-size: larger;
+    text-decoration: none;
+  }
+}
+
+#prezentacjeVideo {
+  background-color: white;
+  margin-top: 10px;
+  min-height: 200px;
+  h2 {
+    font-family: "Lucida Bright";
+  }
+}
+
+video {
+  max-width: 500px;
+  height: auto;
+}
+
+.shadow {
+  box-shadow: 5px 5px 25px #727272;
+}
+
+.oneVideo {
+  padding: 20px 20px 20px 20px;
+  font-family: "Lucida Bright";
+  font-size: 1rem;
+}
+
+.centerRC {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.videoRC {
+  width: 100%;
+  height: 315px;
+
+}
