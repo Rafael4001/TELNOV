@@ -1,0 +1,217 @@
+@charset "UTF-8";
+body {
+  position: relative; }
+
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  text-decoration: none;
+  z-index: 150; }
+
+header {
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+.pierwszyEkran {
+  min-height: 65vh;
+  font-size: 13vw;
+  font-family: "Corbel";
+  padding: 30vh 0vh 27vh 0vh;
+  position: relative;
+  color: white;
+  font-family: "Arial Black";
+  text-shadow: .0625rem .0625rem 0 #6f6f6f; }
+
+#header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 100000; }
+
+#kontakt_Menu {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: larger; }
+
+#backgroundRC {
+  background: url("../images/BackGroundExcavator.jpg");
+  background-repeat: no-repeat;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  -moz-background-size: cover;
+  /* Firefox 3.6 */
+  background-position: center;
+  /* Internet Explorer 7/8 */ }
+
+.oneVideo {
+  margin-bottom: 2vh; }
+
+#header {
+  min-height: 60px;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+#logo {
+  margin: auto 0px;
+  font-size: 2rem;
+  font-family: "Corbel"; }
+
+#mainContainerButtoms {
+  padding-top: 100px;
+  margin-bottom: 20vw; }
+
+.ButtomRC {
+  background: white;
+  margin: 0.3rem;
+  padding: 0 2rem;
+  font-size: 1rem;
+  width: 250px;
+  text-align: center; }
+
+.shadowRC {
+  box-shadow: 2px 2px 25px 3px #6f6f6f;
+  z-index: 20; }
+
+.ButtomRC:hover {
+  background: #a2a2a2;
+  color: white; }
+
+.ButtomRCOutSide {
+  background: none;
+  border: solid white;
+  margin: 4vh 12px 5px 12px;
+  z-index: 50; }
+
+.ButtomRCOutSide:hover {
+  border: solid #a2a2a2; }
+
+#ONAStextOnWhiteContainer {
+  margin: 0; }
+
+.textOnWhiteContainer {
+  background-color: white;
+  margin: 0;
+  z-index: 11;
+  padding: 3vh 10vw 3vh 12vw; }
+  .textOnWhiteContainer h3, .textOnWhiteContainer h4 {
+    margin-bottom: 0;
+    visibility: hidden;
+    height: 0; }
+  .textOnWhiteContainer ul > li {
+    font-size: larger; }
+
+.titleRC {
+  margin: 0 0 0 0;
+  position: relative;
+  font-family: "Corbel";
+  font-size: 6vw;
+  padding: 0 0;
+  color: white;
+  text-shadow: .0625rem .0625rem 0 #6f6f6f; }
+
+.marginZeroRC {
+  margin: 0; }
+
+.paddingZeroRC {
+  padding: 0 0 0 0; }
+
+.marginAutoRC {
+  margin-left: auto;
+  margin-right: auto; }
+
+#OFERUJEMY {
+  font-size: 3rem;
+  z-index: 6;
+  position: relative; }
+
+#OFERUJEMYtextOnWhiteContainer {
+  background: white;
+  margin-top: 0;
+  margin-right: 4vw;
+  padding-right: 0px;
+  padding-left: 2vw;
+  margin-left: 10vw;
+  z-index: 10;
+  position: relative; }
+  #OFERUJEMYtextOnWhiteContainer ul {
+    z-index: 10; }
+
+#USŁUGI_BUDOWLANE {
+  font-size: 3rem;
+  text-align: right;
+  margin-right: 4vw;
+  z-index: 3;
+  position: relative; }
+
+#USLUGI_BUDOWLANE_textOnWhiteContainer {
+  background: white;
+  margin-top: 0;
+  margin-right: 4vw;
+  padding-right: 0px;
+  padding-left: 2vw;
+  margin-left: 10vw;
+  z-index: 10;
+  position: relative; }
+  #USLUGI_BUDOWLANE_textOnWhiteContainer ul {
+    z-index: 10; }
+
+.whiteStripe {
+  background-color: white;
+  min-height: 8px;
+  z-index: 10;
+  margin-bottom: 10px; }
+
+.whiteStripeBigger {
+  margin-bottom: 0;
+  min-height: 30px; }
+
+.yellowStripe {
+  background-color: #f1f100;
+  margin-bottom: 0;
+  min-height: 8px; }
+
+.titleTextSettings {
+  font-size: 4vw;
+  padding: 2vh;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+#kontakt {
+  margin-top: 0; }
+
+#kontaktFooter {
+  font-size: 2rem;
+  padding: 5vh;
+  font-family: "Corbel"; }
+
+.kontaktButtonSmallContainer {
+  margin: 2vh 1vw 2vh 1vw;
+  padding-top: 5vh;
+  padding-bottom: 30px; }
+
+.kontaktButtonSmallContainer_text {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #ffffff; }
+
+.blackBackground {
+  background-color: black;
+  position: relative; }
+
+.phoneMenu {
+  width: 100%; }
+
+.phoneMenu_contener {
+  border-radius: 50px;
+  width: 2rem;
+  height: 2rem;
+  box-shadow: 0 0 15px 1px #d0d0d0;
+  margin-top: auto;
+  margin-bottom: auto; }
