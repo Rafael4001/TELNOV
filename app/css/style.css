@@ -18,6 +18,10 @@ header {
   margin-bottom: 0;
   padding-bottom: 0; }
 
+.tem-number-Menu {
+  color: white;
+  font-family: Arial; }
+
 .pierwszyEkran {
   min-height: 65vh;
   font-size: 13vw;
@@ -193,7 +197,6 @@ header {
   font-family: "Corbel"; }
 
 .kontaktButtonSmallContainer {
-  margin: 2vh 1vw 2vh 1vw;
   padding-top: 5vh;
   padding-bottom: 30px; }
 
@@ -202,7 +205,8 @@ header {
   margin-bottom: auto;
   color: #ffffff; }
   .kontaktButtonSmallContainer_text a {
-    color: #ffffff; }
+    color: #ffffff;
+    padding: 0; }
 
 .blackBackground {
   background-color: black;
@@ -222,3 +226,52 @@ header {
 
 .paddingRC {
   padding-top: 3vh; }
+
+.Procent30 {
+  float: left;
+  width: 33.33333%;
+  width: calc(100% / 3); }
+
+.marginTopAuto {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.imageKontakt {
+  padding-right: 15px;
+  float: left; }
+
+.infoKontaktOnRigth {
+  float: left; }
+
+.paddingLeftRight {
+  padding-left: calc(100% / 3);
+  padding-right: calc(100% / 3); }
+
+.paddingTopBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+#KONTAKT {
+  margin: 2vw 12vw;
+  font-size: 16px; }
+  @media screen and (max-width: 920px) {
+    #KONTAKT {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 2vw;
+      margin: 2vw 0; }
+      #KONTAKT img {
+        width: 10vw;
+        height: auto; } }

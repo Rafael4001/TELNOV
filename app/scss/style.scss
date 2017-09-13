@@ -24,6 +24,12 @@ header {
   padding-bottom: 0;
 }
 
+.tem-number-Menu {
+  color: white;
+  font-family: Arial;
+
+}
+
 .pierwszyEkran {
   min-height: 65vh;
   font-size: 13vw;
@@ -246,7 +252,7 @@ $wysokosc_textOnWhiteContainer_RC: 60vh;
 }
 
 .kontaktButtonSmallContainer {
-  margin: 2vh 1vw 2vh 1vw;
+  //margin: 2vh 1vw 2vh 1vw;
   padding-top: 5vh;
   padding-bottom: 30px;
 }
@@ -257,6 +263,7 @@ $wysokosc_textOnWhiteContainer_RC: 60vh;
   color: #ffffff;
   a {
     color: #ffffff;
+    padding: 0;
   }
 }
 
@@ -281,4 +288,53 @@ $wysokosc_textOnWhiteContainer_RC: 60vh;
 
 .paddingRC {
   padding-top: 3vh;
+}
+
+.Procent30 {
+  float: left;
+  width: (100% / 3);
+  width: calc(100% / 3);
+}
+
+//---TEST-------------------
+.marginTopAuto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.imageKontakt {
+  padding-right: 15px;
+  float: left;
+}
+
+.infoKontaktOnRigth {
+  float: left;
+}
+
+.paddingLeftRight {
+  padding-left: calc(100% / 3);
+  padding-right: calc(100% / 3);
+}
+
+.paddingTopBottom {
+  display: flex;
+  align-items: center;
+}
+
+#KONTAKT {
+  margin: 2vw 12vw;
+  font-size: 16px;
+
+  @media screen and (max-width: 920px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vw;
+    margin: 2vw 0;
+
+    img {
+      width: 10vw;
+      height: auto;
+    }
+  }
 }
