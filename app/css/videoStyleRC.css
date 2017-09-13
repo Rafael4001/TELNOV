@@ -8,6 +8,7 @@ video {
   height: auto; }
 
 .shadow {
+  -webkit-box-shadow: 5px 5px 25px #727272;
   box-shadow: 5px 5px 25px #727272; }
 
 .videoRC {

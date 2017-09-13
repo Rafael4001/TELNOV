@@ -2,6 +2,9 @@ const gulp = require('gulp'),
     sass = require('gulp-sass'),
     browserSync = require('browser-sync').create();
 
+const autoprefixer = require('gulp-autoprefixer');
+
+
 //metoda kontrolna do sprawdzenia poprawnosci dzialania gulp
 gulp.task('hello', function () {
     console.log('Hello Zell');
@@ -11,10 +14,17 @@ gulp.task('hello', function () {
 gulp.task('sass', function () {
     return gulp.src('app/scss/*.scss')
         .pipe(sass()) // Using gulp-sass
+        //purifyCSS
+        //vinyll do ftp polaczenia automatycznie
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
         .pipe(gulp.dest('app/css'))
         .pipe(browserSync.reload({
             stream: true
         }))
+
 });
 
 //aktualizuje CSS po zmianie SCSS

@@ -17,7 +17,6 @@ a {
 a:hover {
   text-decoration: none;
   z-index: 150;
-
 }
 
 header {
@@ -256,6 +255,9 @@ $wysokosc_textOnWhiteContainer_RC: 60vh;
   margin-top: auto;
   margin-bottom: auto;
   color: #ffffff;
+  a {
+    color: #ffffff;
+  }
 }
 
 .blackBackground {
