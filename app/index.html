@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>NOWE TELNOV</title>
+    <!--linia odpowiedzialna za odczytywanie typu urzadzenia-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TELNOV</title>
 
 
     <!--CSS z poprzedniego projektu-->
@@ -19,61 +21,36 @@
     <!--jQuery-->
     <script src="jquery/jquery.min.js"></script>
 
-    <!-------------INTEGRACJA ZE ROZNYMI URZADZENIAMI----------------->
-    <title>just FAKE ! - e-liquidy, bazy, aromaty. Prosto z Polski </title>
-    <meta property=“og:title” content=“just FAKE ! - e-liquidy, bazy, aromaty. Prosto z Polski”>
-    <meta property=“og:site_name” content=“https://www.facebook.com/JustFake-1793572387536804/?fref=ts“>
-    <meta property=“og:url” content=“http://justfake.pl”>
-    <meta property=“og:description” content=“Najlepsze e-LIQUIDY klasy PREMIUM”>
-    <meta property=“og:image” content=“http://justfake.pl/images/facebook.jpg”>
-    <meta property=“og:type” content=“article”>
-    <meta charset=“utf-8”>
-    <meta name=“viewport” content=“width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no”>
-    <meta name=“description”
-          content=“just FAKE ! - e-liquidy, bazy, aromaty. Najlepsze Liquidy klasy PREMIUM. Prosto z Polski”>
-    <meta name=“keywords” content=“e-liquidy, bazy, aromaty, just fake, just fake pl”>
-    <meta name=“google-site-verification” content=“_lMt4cwBtpM26ykt-UCfwGmk4mb0n19FsmwoSTX8N58”/>
-    <meta http-equiv=“X-UA-Compatible” content=“IE=edge,chrome=1”>
-    <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css”>
-    <link rel=“stylesheet”
-          href=“https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css”>
-    <link href=‘http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext’ rel=‘stylesheet’
-          type=‘text/css’>
-    <script type=“text/javascript”
-            src=“https://maps.googleapis.com/maps/api/js?key=AIzaSyDIDi9riHdaC0cB2AloA38VCigWUKSBUbg&libraries=geometry,places,visualization”>
-    </script>
-    <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css”>
-    <script type=“text/javascript”
-            src=“https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.0.5/es6-promise.min.js”></script>
-    <script type=“text/javascript”
-            src=“/helpers/promise-polyfill.js”></script>
+    <!------------------------------------------FavIcon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="favIcona/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favIcona/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favIcona/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favIcona/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favIcona/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favIcona/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favIcona/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favIcona/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favIcona/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favIcona/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favIcona/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favIcona/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favIcona/favicon-16x16.png">
+    <link rel="manifest" href="favIcona/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favIcona/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-    <link rel=“apple-touch-icon” sizes=“57x57” href=“/apple-icon-57x57.png”>
-    <link rel=“apple-touch-icon” sizes=“60x60" href=“/apple-icon-60x60.png”>
-    <link rel=“apple-touch-icon” sizes=“72x72” href=“/apple-icon-72x72.png”>
-    <link rel=“apple-touch-icon” sizes=“76x76" href=“/apple-icon-76x76.png”>
-    <link rel=“apple-touch-icon” sizes=“114x114” href=“/apple-icon-114x114.png”>
-    <link rel=“apple-touch-icon” sizes=“120x120" href=“/apple-icon-120x120.png”>
-    <link rel=“apple-touch-icon” sizes=“144x144” href=“/apple-icon-144x144.png”>
-    <link rel=“apple-touch-icon” sizes=“152x152" href=“/apple-icon-152x152.png”>
-    <link rel=“apple-touch-icon” sizes=“180x180” href=“/apple-icon-180x180.png”>
-    <link rel=“icon” type=“image/png” sizes=“192x192” href=“/android-icon-192x192.png”>
-    <link rel=“icon” type=“image/png” sizes=“32x32” href=“/favicon-32x32.png”>
-    <link rel=“icon” type=“image/png” sizes=“96x96” href=“/favicon-96x96.png”>
-    <link rel=“icon” type=“image/png” sizes=“16x16” href=“/favicon-16x16.png”>
-
-
-    <!-------------INTEGRACJA ZE ROZNYMI URZADZENIAMI-END----------------->
-
-
+    <!-------------------------------------FavIcon-END-->
 </head>
 
 <!---------------------------------------------------------------------------------------------------->
 <body>
+
+
 <a id="Start"></a>
 <!--NAVBAR - START-->
-<nav class="navbar navbar-default navbarRC">
-    <div class="container-fluid">
+<div class="container-fluid" style=" padding-right: 0; padding-left: 0">      <!--TODO-->
+    <nav class="navbarRC navbar navbar-default ">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -90,26 +67,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <!--right side-->
             <ul class="nav navbar-nav navbar-right padding-right">
-                <!--tel number Menu-->
-                <!--<li>-->
-                <!--<div class="row">-->
-                <!--<div class="col-md-4 col-sm-12 img-fluid">-->
-                <!--<img src="images/phone.png">-->
-                <!--</div>-->
-                <!--<div class=" col-md-8 col-sm-12 text-md-left text-center tem-number-Menu">-->
-                <!--<a type="tel: 48778474487">+48 77 84 74 487</a>-->
-                <!--<br>-->
-                <!--<a type="tel: 48778474487">+48 77 84 74 487</a>-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--</li>-->
-                <!--tel number Menu-END-->
                 <li><a data-scroll href="#KONTAKT_place">KONTAKT</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">MENU <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-
                         <li><a data-scroll href="#o_Nas">O Nas</a></li>
                         <li role="separator" class="divider"></li>
 
@@ -124,20 +86,22 @@
             </ul>
             <!--right side-END-->
         </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+    </nav>
+</div><!-- /.container-fluid -->
+
 <!--NAVBAR - END-->
 
-<div class=" main-window container-fluid paddingZeroRC">
+<div class=" main-window container-fluid paddingZeroRC" style=" padding-right: 0; padding-left: 0">
     <div class="pierwszyEkran text-center">
         TEL NOV
     </div>
-
     <!--part 1-->
     <a id="o_Nas"></a>
     <div class=" firstContainer  titleRC col-sm-12 text-center marginZero ">
         O Nas
     </div>
+    <div class=" col-sm-12 yellowStripe"></div>
+
     <div id="ONAStextOnWhiteContainer" class="col-sm-12  textOnWhiteContainer   ">
         <div class=" col-sm-12 text-center">
             <!--<h3>O Nas</h3>-->
@@ -149,9 +113,10 @@
             Donec et enim at leo gravida accumsan.
         </div>
     </div>
-
     <!--part 1-END-->
 </div>
+
+
 <a id="Usługi_Budowlane"></a>
 <div class="main-window container-fluid paddingZeroRC">
     <!--part 2-->
@@ -186,8 +151,6 @@
             </div>
         </div>
     </div>
-
-
     <!--part 2-END-->
 </div>
 
@@ -359,7 +322,7 @@
 <div class="window_field container-fluid paddingZeroRC">
     <!--part 6-->
     <a id="KONTAKT_place"></a>
-    <div id="kontakt" class=" titleRC col-sm-12 text-center marginZero ">
+    <div id="kontakt_title" class=" titleRC col-sm-12 text-center marginZero ">
         KONTAKT
     </div>
 </div>
@@ -371,7 +334,7 @@
     <!---------------------------------->
     <div id="KONTAKT" class="row  marginZeroRC ">
         <!--WINDOW 1-->
-        <div class=" Procent30  marginAutoRC  textcenter  kontaktButtonSmallContainer ">
+        <div class=" smallContainerKontakt Procent30  marginAutoRC  textcenter  kontaktButtonSmallContainer ">
             <div class="row paddingTopBottom ">
                 <div class="imageKontakt">
                     <img src="images/adres.png">
@@ -386,7 +349,7 @@
 
 
         <!--WINDOW 2-->
-        <div class=" Procent30  marginAutoRC  textcenter  kontaktButtonSmallContainer ">
+        <div class="smallContainerKontakt Procent30  marginAutoRC  textcenter  kontaktButtonSmallContainer ">
             <div class="row paddingTopBottom">
                 <div class="imageKontakt ">
                     <img src="images/phone.png">
@@ -404,7 +367,7 @@
         <!--WINDOW 2-END-->
 
         <!--WINDOW 3-->
-        <div class=" Procent30  marginAutoRC  textcenter  kontaktButtonSmallContainer ">
+        <div class="smallContainerKontakt Procent30  marginAutoRC  textcenter  kontaktButtonSmallContainer ">
             <div class="row paddingTopBottom ">
                 <div class="imageKontakt">
                     <img src="images/mail.png">

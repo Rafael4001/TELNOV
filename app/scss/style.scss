@@ -153,6 +153,7 @@ $wysokosc_textOnWhiteContainer_RC: 60vh;
   padding: 2vh;
   background-color: rgba(0, 0, 0, 0.6);
   float: none;
+
 }
 
 .marginZeroRC {
@@ -252,7 +253,6 @@ $wysokosc_textOnWhiteContainer_RC: 60vh;
 }
 
 .kontaktButtonSmallContainer {
-  //margin: 2vh 1vw 2vh 1vw;
   padding-top: 5vh;
   padding-bottom: 30px;
 }
@@ -321,7 +321,14 @@ $wysokosc_textOnWhiteContainer_RC: 60vh;
   align-items: center;
 }
 
+#kontakt_title {
+  @media screen and (min-width: 720px) {
+    padding-top: 150px;
+  }
+}
+
 #KONTAKT {
+
   margin: 2vw 12vw;
   font-size: 16px;
 
@@ -332,9 +339,67 @@ $wysokosc_textOnWhiteContainer_RC: 60vh;
     font-size: 2vw;
     margin: 2vw 0;
 
+    .smallContainerKontakt {
+      width: 100%;
+      margin-left: 35%;
+      margin-right: auto;
+    }
+
     img {
       width: 10vw;
       height: auto;
     }
   }
+  @media screen and (max-width: 650px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vw;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+
+    img {
+      width: 10vw;
+      height: auto;
+    }
+  }
+  //na urzadzenia mobilne
+  @media screen and (max-device-width: 920px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vw;
+    margin: 2vw 0;
+
+    .smallContainerKontakt {
+      width: 100%;
+      margin-left: 35%;
+      margin-right: auto;
+    }
+
+    img {
+      width: 10vw;
+      height: auto;
+    }
+  }
+  @media screen and (max-device-width: 650px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vw;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+
+    img {
+      width: 10vw;
+      height: auto;
+    }
+  }
+
 }
+
+//@media screen and (max-device-width: 920px) {
+//  background-color: red;
+//}

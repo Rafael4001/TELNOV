@@ -16,7 +16,7 @@ gulp.task('sass', function () {
         .pipe(sass()) // Using gulp-sass
         //purifyCSS
         //vinyll do ftp polaczenia automatycznie
-        .pipe(autoprefixer({
+        .pipe(autoprefixer({                            //odpowiada za znormalizowania kodu CSS na wszystkie przegladarki
             browsers: ['last 2 versions'],
             cascade: false
         }))

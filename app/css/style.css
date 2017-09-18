@@ -255,6 +255,10 @@ header {
   -ms-flex-align: center;
   align-items: center; }
 
+@media screen and (min-width: 720px) {
+  #kontakt_title {
+    padding-top: 150px; } }
+
 #KONTAKT {
   margin: 2vw 12vw;
   font-size: 16px; }
@@ -272,6 +276,69 @@ header {
       align-items: center;
       font-size: 2vw;
       margin: 2vw 0; }
+      #KONTAKT .smallContainerKontakt {
+        width: 100%;
+        margin-left: 35%;
+        margin-right: auto; }
+      #KONTAKT img {
+        width: 10vw;
+        height: auto; } }
+  @media screen and (max-width: 650px) {
+    #KONTAKT {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 3vw;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0; }
+      #KONTAKT img {
+        width: 10vw;
+        height: auto; } }
+  @media screen and (max-device-width: 920px) {
+    #KONTAKT {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 2vw;
+      margin: 2vw 0; }
+      #KONTAKT .smallContainerKontakt {
+        width: 100%;
+        margin-left: 35%;
+        margin-right: auto; }
+      #KONTAKT img {
+        width: 10vw;
+        height: auto; } }
+  @media screen and (max-device-width: 650px) {
+    #KONTAKT {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 3vw;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0; }
       #KONTAKT img {
         width: 10vw;
         height: auto; } }
